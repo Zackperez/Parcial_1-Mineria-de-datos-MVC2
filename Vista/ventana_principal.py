@@ -11,7 +11,7 @@ class Ventana_Principal(tk.Frame):
 
     def configurar_ventana(self):
         self.parent.config(bg="#0D1216")
-        self.parent.title("Inicio de sesión") #Aplica un titulo a la ventana
+        self.parent.title("Ventana Principal") #Aplica un titulo a la ventana
         self.parent.resizable(0,0)  #Evita que se pueda redimensionar la ventana
         self.dimensiones_ventana()
 
